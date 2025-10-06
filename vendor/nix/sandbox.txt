@@ -1,0 +1,10 @@
+              ''^tests/functional/extra-sandbox-profile\.sh$''
+./nix/maintainers/flake-module.nix
+        nix.settings.extra-sandbox-paths = lib.mkForce [ ];
+./nix/tests/nixos/nss-preload.nix
+              echo please add it to extra-sandbox-paths in nix.conf!
+./factorio-mods-nix/utils.nix
+      extra-sandbox-paths = [
+./vpsfree-cz-configuration/cluster/cz.vpsfree/machines/aitherdev/config.nix
+    extra-sandbox-paths = [
+./vpsfree-cz-configuration/environments/deploy.nix

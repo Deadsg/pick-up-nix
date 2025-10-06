@@ -1,0 +1,1 @@
+source/github/meta-introspector/git-submodules-rs-nix/.emacs.d

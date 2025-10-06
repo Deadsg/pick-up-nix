@@ -69,3 +69,4 @@ lean4_nix_develop.log
 # Gemini CLI logs
 .gemini_logs/logs/*.log
 logs/index/all_github.txt
+logs/telemetry.log

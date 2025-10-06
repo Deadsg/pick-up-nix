@@ -1,1 +1,0 @@
-./.git/modules/source/github/meta-introspector/git-submodule-tools-rs/modules/vendor/zola/modules/sublime/syntaxes/Docker.tmbundle

@@ -431,3 +431,39 @@
 [submodule "vendor/nix/nixdoc"]
 	path = vendor/nix/nixdoc
 	url = https://github.com/nix-community/nixdoc
+[submodule "source/github/meta-introspector/th-desugar"]
+	path = source/github/meta-introspector/th-desugar
+	url = https://github.com/meta-introspector/th-desugar
+[submodule "vendor/hooks/prek"]
+	path = vendor/hooks/prek
+	url = https://github.com/j178/prek.git
+[submodule "vendor/nix/felix-schausberger-nixos"]
+	path = vendor/nix/felix-schausberger-nixos
+	url = https://github.com/FelixSchausberger/nixos
+[submodule "vendor/nix/nix-stdlib"]
+	path = vendor/nix/nix-stdlib
+	url = https://github.com/meta-introspector/nix-stdlib.git
+[submodule "vendor/nix/nix-init"]
+	path = vendor/nix/nix-init
+	url = https://github.com/meta-introspector/nix-init
+[submodule "vendor/nix/nix-prefetch"]
+	path = vendor/nix/nix-prefetch
+	url = https://github.com/meta-introspector/nix-prefetch
+[submodule "vendor/nix/nix-prefetch-github"]
+	path = vendor/nix/nix-prefetch-github
+	url = https://github.com/meta-introspector/nix-prefetch-github
+[submodule "vendor/nix/nurl"]
+	path = vendor/nix/nurl
+	url = https://github.com/meta-introspector/nurl
+[submodule "vendor/nix/nix-universal-prefetch"]
+	path = vendor/nix/nix-universal-prefetch
+	url = https://github.com/meta-introspector/nix-universal-prefetch
+[submodule "vendor/nix/prefetch-github"]
+	path = vendor/nix/prefetch-github
+	url = https://github.com/meta-introspector/prefetch-github
+[submodule "vendor/nix/nix-upfetch"]
+	path = vendor/nix/nix-upfetch
+	url = https://github.com/meta-introspector/nix-upfetch
+[submodule "vendor/nix/nix-prefetch-lheckemann"]
+	path = vendor/nix/nix-prefetch-lheckemann
+	url = https://github.com/meta-introspector/nix-prefetch

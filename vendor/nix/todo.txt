@@ -1,0 +1,3 @@
+
+vendor/hooks/lint-staged/                                                                                                                 vendor/lint/nixpkgs-lint/
+        vendor/nix/nixdoc/                                                                                                                        vendor/nix/pre-commit-tool-hooks/                                                                                                         vendor/nix/vale-precommit/

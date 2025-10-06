@@ -1,5 +1,6 @@
-git
-idx
-pack
-rev
-wiki
+sh
+rust
+toml
+lean
+Makefile
+.gitmodules

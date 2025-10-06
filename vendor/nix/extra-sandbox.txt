@@ -1,0 +1,4 @@
+-bash-5.2$ find -name \*.nix -exec grep  -r extra-sandbox {} \;  -print
+extra-sandbox-paths = [
+./vpsfree-cz-configuration/cluster/cz.vpsfree/machines/aitherdev/config.nix                                                              extra-sandbox-paths = [
+./vpsfree-cz-configuration/environments/deploy.nix

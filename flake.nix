@@ -34,7 +34,7 @@
         logAnalyzer = naerskLib.buildPackage {
           pname = "log-analyzer";
           version = "0.1.0";
-          src = ./crates/log_analyzer;
+          src = self + "/crates/log_analyzer";
           cargoLock = {
             lockFile = ./crates/log_analyzer/Cargo.lock;
           };
