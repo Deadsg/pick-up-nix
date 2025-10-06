@@ -1,3 +1,0 @@
-[submodule "vendor/node2nix"]
-	path = vendor/node2nix
-	url = https://github.com/meta-introspector/node2nix
