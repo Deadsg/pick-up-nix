@@ -467,3 +467,12 @@
 [submodule "vendor/nix/nix-prefetch-lheckemann"]
 	path = vendor/nix/nix-prefetch-lheckemann
 	url = https://github.com/meta-introspector/nix-prefetch
+[submodule "vendor/external/codex"]
+	path = vendor/external/codex
+	url = https://github.com/meta-introspector/codex
+[submodule "vendor/nix/trustix"]
+	path = vendor/nix/trustix
+	url = https://github.com/adisbladis/trustix/
+[submodule "vendor/hooks/git-hooks.nix"]
+	path = vendor/hooks/git-hooks.nix
+	url = https://github.com/cachix/git-hooks.nix
