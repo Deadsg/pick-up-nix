@@ -1,3 +1,10 @@
+[submodule "vendor/external/copilot-cli"]
+	path = vendor/external/copilot-cli
+	url = https://github.com/github/copilot-cli.git
+
+[submodule "vendor/external/gemini-cli"]
+ path = vendor/external/gemini-cli
+ url = https://github.com/meta-introspector/gemini-cli
 
 [submodule "vendor/rust-index-guix"]
 	path = vendor/rust-index-guix
@@ -41,11 +48,12 @@
 [submodule "vendor/external/git-submodule-tools-rs"]
 	path = vendor/external/git-submodule-tools-rs
 	url = https://github.com/meta-introspector/git-submodule-tools-rs
+	
 [submodule "source/github/meta-introspector/solfunmeme"]
 	path = source/github/meta-introspector/solfunmeme
 	url = https://github.com/meta-introspector/solfunmeme
 
-[submodule "source/github/meta-introspector/lean4"]
+[submodule "vendor/lean/lean4"]
 	path = vendor/lean/lean4
 	url = https://github.com/meta-introspector/lean4
 [submodule "vendor/external/forgejo-python"]
@@ -476,3 +484,6 @@
 [submodule "vendor/hooks/git-hooks.nix"]
 	path = vendor/hooks/git-hooks.nix
 	url = https://github.com/cachix/git-hooks.nix
+[submodule "nix/vendor/nix/cargo2nix"]
+	path = nix/vendor/nix/cargo2nix
+	url = https://github.com/meta-introspector/cargo2nix.git
