@@ -57,5 +57,22 @@ update-flake-nix:
 # Target to clean up generated files
 clean:
 	@echo "[INFO] Cleaning up generated files..."
-	rm -f $(UNIQUE_REPOS_FILE)
+	@rm -f $(UNIQUE_REPOS_FILE)
 	@echo "[INFO] Cleanup complete."
+
+SYNAPSE_SUBMODULE_PATH := $(PROJECT_ROOT)/09/26/synapse-system
+
+# Target to recover lost work in the synapse submodule
+recover-synapse-work:
+	@echo "[INFO] Attempting to recover lost work in the synapse submodule..."
+	@echo "[INFO] Synapse Submodule Path: $(SYNAPSE_SUBMODULE_PATH)"
+	@echo "[INFO] Reviewing Git history for potential lost commits in $(SYNAPSE_SUBMODULE_PATH)..."
+	@echo "--------------------------------------------------------------------------------"
+	@git -C $(SYNAPSE_SUBMODULE_PATH) log --oneline --graph --all --decorate
+	@echo "--------------------------------------------------------------------------------"
+	@echo "[INFO] To identify specific file changes, you can use 'git -C $(SYNAPSE_SUBMODULE_PATH) show <commit-hash>'."
+	@echo "[INFO] Once filenames are identified, search telemetry logs for their content:"
+	@echo "[INFO] Example: grep -F '<filename>' $(PROJECT_ROOT)/logs/telemetry.log"
+	@echo "[INFO] Recovery process requires manual inspection of Git history and telemetry logs."
+
+.PHONY: recover-synapse-work

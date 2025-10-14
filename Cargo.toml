@@ -31,7 +31,7 @@ members = [
 , "wrappers/wrapper-crate"
 , "source/github/meta-introspector/streamofrandom/2025/09/18/fixed_point_enum"
 , "source/github/meta-introspector/streamofrandom/2025/09/18/fixed_point_traits"
-, "tools/template_generator_bin"]
+, "tools/template_generator_bin", "source/github/meta-introspector/streamofrandom/2025/10/14/flake_auditor"]
 
 
 # task: "source/github/meta-introspector/submodules" please add these above

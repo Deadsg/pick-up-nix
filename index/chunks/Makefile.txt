@@ -1,3 +1,0 @@
-./source/github/meta-introspector/streamofrandom/2025/debug-outputs.Makefile
-./source/github/meta-introspector/streamofrandom/2025/debug-system-outputs.Makefile
-./vendor/external/rust/src/tools/compiletest/src/directives/test-auxillary/not_rs.Makefile

@@ -1,6 +1,0 @@
-sh
-rust
-toml
-lean
-Makefile
-.gitmodules

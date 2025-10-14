@@ -56,3 +56,9 @@ The current task involves:
 3.  **Define Packages/Applications within Flake.**
 4.  **Set up Build and Test Commands for the Project.**
 5.  **Further Refine the `devShell`.**
+
+### External Dependency Integration Policy
+
+- **Integration Method:** All external dependencies are to be integrated via `github:meta-introspector` URLs.
+- **Submodule Usage:** Submodules are *not* to be used for general integration of external dependencies. Their use is strictly reserved for scenarios involving *editing, pushing, and tagging* of those external repositories.
+- **Assumption:** It is expected that all necessary external dependencies are already checked in and labeled within the `github:meta-introspector` organization.

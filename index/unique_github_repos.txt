@@ -1,8 +1,0 @@
-https://github.com/nix-community/nix-init
-https://github.com/msteen/nix-prefetch
-https://github.com/seppeljordan/nix-prefetch-github
-https://github.com/nix-community/nurl
-https://github.com/pbogdan/nix-universal-prefetch
-https://github.com/justinwoo/prefetch-github
-https://github.com/msteen/nix-upfetch
-https://github.com/lheckemann/nix-prefetch

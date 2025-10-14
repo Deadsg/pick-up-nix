@@ -1,2 +1,0 @@
-./.git/modules/source/github/meta-introspector/streamofrandom/modules/2025/objects/pack/pack-5c4af36cd1bc6afdcdb3e29222a107454e43cac5.rev
-./vendor/nix/nix-stdlib/vendor/clan/pkgs/clan-cli/clan_cli/tests/data/gnupg-home/openpgp-revocs.d/9A9B2741C8062D3D3DF1302D8B049E262A5CA255.rev
